@@ -446,16 +446,16 @@ section[id="loisirs"] p {
 }
 
 #dark-mode:checked + .container main section[id="about"] label[for="dark-mode"]:after {
-    -webkit-transform: translateX(3.4rem);
-        -ms-transform: translateX(3.4rem);
-            transform: translateX(3.4rem);
+    -webkit-transform: translateX(3.5rem);
+        -ms-transform: translateX(3.5rem);
+            transform: translateX(3.5rem);
 }
 
 label[for="dark-mode"] {
     display: block;
     position: relative;
     width: 7rem;
-    height: 3.6rem;
+    height: 3.5rem;
     margin-bottom: 1rem;
     border-radius: 1.8rem;
 }
@@ -467,10 +467,7 @@ label[for="dark-mode"], label[for="dark-mode"]:after {
 
 label[for="dark-mode"]:after {
     position: absolute;
-    top: -0.3rem;
-    left: -0.3rem;
     border-radius: 50%;
-    padding: 0.25rem;
     font-family: 'Material Icons Outlined';
     content: 'light_mode';
     font-size: 2.5rem;
@@ -723,21 +720,21 @@ main section article ul li .material-icons {
         font-size: 4rem;
         text-indent: 0;
     }
-    
+
     section[id="loisirs"] p:before {
         top: -1rem;
         left: -2rem;
         -webkit-animation: jumping-top 3s ease-in-out infinite;
                 animation: jumping-top 3s ease-in-out infinite;
     }
-    
+
     section[id="loisirs"] p:after {
         bottom: -1rem;
         right: 0rem;
         -webkit-animation: jumping-bot 3s ease-in-out infinite;
                 animation: jumping-bot 3s ease-in-out infinite;
     }
-    
+
     @-webkit-keyframes jumping-top {
         0%, 100% {
             top: -1rem;
@@ -746,7 +743,7 @@ main section article ul li .material-icons {
             top: 0rem;
         }
     }
-    
+
     @keyframes jumping-top {
         0%, 100% {
             top: -1rem;
@@ -755,7 +752,7 @@ main section article ul li .material-icons {
             top: 0rem;
         }
     }
-    
+
     @-webkit-keyframes jumping-bot {
         0%, 100% {
             bottom: -1rem;
@@ -764,7 +761,7 @@ main section article ul li .material-icons {
             bottom: -2rem;
         }
     }
-    
+
     @keyframes jumping-bot {
         0%, 100% {
             bottom: -1rem;
@@ -1041,7 +1038,7 @@ main section article ul li .material-icons {
     main section h1 {
         font-size: 3rem;
     }
-    
+
     main section h2 {
         font-size: 2.2rem;
     }
